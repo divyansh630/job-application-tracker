@@ -2,6 +2,8 @@
 
 A responsive job application tracker dashboard built with HTML, CSS, and JavaScript.
 
+live demo : https://job-application-tracker-divyansh.vercel.app
+
 ## Features
 
 - Add job applications
@@ -64,5 +66,4 @@ git clone https://github.com/divyansh630/job-application-tracker.git
 - User authentication
 - Cloud database
 - Application reminders
-- Deployment with a live demo
 ```
