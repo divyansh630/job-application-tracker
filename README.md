@@ -62,6 +62,7 @@ git clone https://github.com/divyansh630/job-application-tracker.git
 
 ```
 ##future improvements :
+- important features (login page, dark mode etc)
 - Backend integration
 - User authentication
 - Cloud database
