@@ -8,10 +8,12 @@
       src="https://kit.fontawesome.com/f334f002d5.js"
       crossorigin="anonymous"
     ></script>
+    <!--I am using font awesome here for icons-->
     <link rel="stylesheet" href="tracker.css" />
   </head>
   <body>
     <aside>
+      <!--aside bar -->
       <div class="logo">
         <img src="applogo1.png" alt="Job_tracker_logo" />
         <h4>Trackify</h4>
@@ -48,12 +50,13 @@
         </ul>
       </div>
     </aside>
+    <!--aside bar ends here -->
     <main>
-      <!--main section starts from here-->
-
+      <!--main section starts from here -->
       <section id="dashboard">
-        <!--dashboard starts from here -->
+        <!--dashboard -(graphs , stats cards) -->
         <header>
+          <!--header -->
           <div id="header-left">
             <i class="fa-solid fa-bars"></i>
             <div class="welcome">
@@ -62,6 +65,7 @@
             </div>
           </div>
           <div class="search">
+            <!--search bar-main -->
             <i class="fa-solid fa-magnifying-glass"></i>
             <input
               type="text"
@@ -69,12 +73,14 @@
             />
           </div>
           <div class="icons">
+            <!--dark mode btn -->
             <i class="fa-solid fa-bell"></i>
             <i id="darkModeBtn" class="fa-solid fa-moon"></i>
             <i id="profile" class="fa-solid fa-circle-user"></i>
           </div>
         </header>
         <div class="stats">
+          <!--stat cards -->
           <div class="card">
             <i id="cardi1" class="fa-solid fa-briefcase"></i>
             <div class="card1">
@@ -106,6 +112,7 @@
         </div>
 
         <div class="chart">
+          <!--charts -->
           <div class="chartcard">
             <h3>Application Status</h3>
             <canvas id="statusChart"></canvas>
@@ -119,6 +126,7 @@
       </section>
       <div class="main-content">
         <section id="addapplication">
+          <!-- application form to add application-->
           <div class="form-container">
             <h3>Add New Application</h3>
             <form id="applicationForm" class="application-form">
@@ -164,6 +172,7 @@
               </div>
               <div class="input-group">
                 <label for="notes">Notes(Optional)</label>
+                <!--notes text box where we can add notes  -->
                 <textarea
                   id="notes"
                   name="notes"
@@ -176,11 +185,13 @@
           </div>
         </section>
         <section id="myapplications">
+          <!--application review or edit section -->
           <div class="applications-container">
             <div class="application-header">
               <h3>My Applications</h3>
               <div class="filter-tools">
                 <div class="searchapplication">
+                  <!--search bar to search application -->
                   <i class="fa-solid fa-magnifying-glass"></i>
                   <input
                     type="text"
@@ -190,6 +201,7 @@
                 </div>
                 <div class="applicationstatus">
                   <label for="aplstatus"></label>
+                  <!--filter to see applications acc to their status -->
                   <select id="aplstatus">
                     <option>All Status</option>
                     <option>Applied</option>
@@ -202,12 +214,14 @@
                   <label for="aplsort"></label>
                   <select id="aplsort">
                     <option>Newest First</option>
+                    <!--filter buttons to see latest/oldest applications -->
                     <option>Oldest First</option>
                   </select>
                 </div>
               </div>
             </div>
             <table>
+              <!--here i used a table to display applications -->
               <thead>
                 <tr>
                   <th>Company</th>

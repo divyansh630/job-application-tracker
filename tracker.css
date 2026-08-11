@@ -1,4 +1,5 @@
 aside {
+  /* This is a comment */
   background-color: #1e1a4d;
   width: 250px;
   height: 100vh;
@@ -15,6 +16,7 @@ aside {
   padding-bottom: 10px;
 }
 .logo img {
+  /* logo of our job-tracker */
   height: 50px;
   width: 50px;
   color: aliceblue;
@@ -59,19 +61,21 @@ aside {
 .menu a svg {
   color: white;
   padding-left: 10px;
-}
+} /* here svg is used at the place of i to style the icons */
 
 body {
   background-color: #f5f5f4;
 }
 
 header {
+  /* styling of header */
   margin-left: 250px;
   display: flex;
   align-items: center;
 }
 
 #header-left {
+  /* header left dilpays greetings */
   display: flex;
   align-items: center;
   gap: 25px;
@@ -143,6 +147,7 @@ header svg {
 }
 
 .stats {
+  /*  styling of our stat cards */
   margin-left: 250px;
   display: flex;
   align-items: center;
@@ -180,6 +185,7 @@ header svg {
 }
 
 #cardi1 {
+  /* these id's i1,i2,i3,i4 are give to stat cards icons to style them */
   color: #535fbd;
 }
 
@@ -230,6 +236,7 @@ header svg {
   margin: 0;
 }
 #statusChart {
+  /* styling of chart (rest of stylings is inside js)  */
   height: 360px !important;
 }
 #monthlyChart {
@@ -237,6 +244,7 @@ header svg {
 }
 
 .form-container {
+  /* stylong of application form */
   margin-left: 270px;
   width: 300px;
   min-height: 400px;
@@ -313,6 +321,7 @@ textarea {
 }
 
 .main-content {
+  /* styling of table , on which i'm displaying applications */
   display: flex;
   gap: 30px;
   align-items: flex-start;
