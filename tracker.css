@@ -140,6 +140,35 @@ header svg {
   font-size: 20px;
   cursor: pointer;
 }
+.notification-wrapper {
+  position: relative;
+}
+
+.notification-popup {
+  position: absolute;
+  top: 35px;
+  right: 0;
+  width: 260px;
+  background-color: white;
+  color: #222;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+
+  display: none;
+  z-index: 9999;
+}
+.notification-popup.show {
+  display: block !important ;
+}
+.notification-popup h4 {
+  margin: 0 0 10px;
+}
+
+.notification-popup p {
+  margin: 0;
+  color: #777;
+}
 
 #profile {
   font-size: 30px;

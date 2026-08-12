@@ -211,6 +211,17 @@ const monthlyChart = new Chart(monthlyCtx, {
     ],
   },
 });
+const notificationWrapper = document.querySelector(".notification-wrapper");
+const notificationPopup = document.getElementById("notificationPopup");
 
+notificationWrapper.addEventListener("click", function (event) {
+  event.stopPropagation();
+  notificationPopup.classList.toggle("show");
+});
+document.addEventListener("click", function (event) {
+  if (!notificationWrapper.contains(event.target)) {
+    notificationPopup.classList.remove("show");
+  }
+});
 displayApplications();
 updateStats();
