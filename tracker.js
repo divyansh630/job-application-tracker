@@ -99,6 +99,7 @@ function displayApplications() {
   const selectedStatus = statusFilter.value;
   const searchText = applicationSearch.value.toLowerCase();
   let sortedApplications = [...applications];
+  const headerSearch = document.getElementById("headerSearch");
   if (sortFilter.value === "Newest First") {
     sortedApplications.sort(function (a, b) {
       return new Date(b.dateApplied) - new Date(a.dateApplied);
@@ -210,6 +211,10 @@ const monthlyChart = new Chart(monthlyCtx, {
       },
     ],
   },
+});
+headerSearch.addEventListener("input", function () {
+  applicationSearch.value = headerSearch.value;
+  displayApplications();
 });
 const notificationWrapper = document.querySelector(".notification-wrapper");
 const notificationPopup = document.getElementById("notificationPopup");

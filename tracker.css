@@ -129,6 +129,7 @@ header svg {
   border: 1px solid #ccc;
   border-radius: 25px;
   outline: none;
+  max-width: 500px;
 }
 
 .icons {
