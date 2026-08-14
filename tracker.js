@@ -228,5 +228,10 @@ document.addEventListener("click", function (event) {
     notificationPopup.classList.remove("show");
   }
 });
+const darkModeWrapper = document.querySelector(".dark-mode-wrapper");
+
+darkModeWrapper.addEventListener("click", function () {
+  document.body.classList.toggle("dark-mode");
+});
 displayApplications();
 updateStats();

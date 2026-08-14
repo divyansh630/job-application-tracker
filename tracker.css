@@ -528,3 +528,222 @@ footer {
   display: flex;
   align-items: center;
 }
+/* =========================
+   DARK MODE
+========================= */
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+/* Sidebar */
+
+body.dark-mode aside {
+  background-color: #181818;
+}
+
+body.dark-mode .logo h4 {
+  color: #ffffff;
+}
+
+body.dark-mode .menu a {
+  color: #dddddd;
+}
+
+body.dark-mode .menu a:hover {
+  background-color: #292929;
+}
+
+/* Header */
+
+body.dark-mode header {
+  background-color: #181818;
+}
+
+body.dark-mode .welcome h3 {
+  color: #ffffff;
+}
+
+body.dark-mode .welcome p {
+  color: #aaaaaa;
+}
+
+/* Header search */
+
+body.dark-mode .search {
+  background-color: #242424;
+}
+
+body.dark-mode .search input {
+  background-color: transparent;
+  color: #ffffff;
+}
+
+body.dark-mode .search input::placeholder {
+  color: #888888;
+}
+
+body.dark-mode #header-serachbar {
+  color: #aaaaaa;
+}
+
+/* Header icons */
+
+body.dark-mode .icons i {
+  color: #dddddd;
+}
+
+body.dark-mode .icons i:hover {
+  color: #ffffff;
+}
+
+/* Statistics cards */
+
+body.dark-mode .card {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+body.dark-mode .card h4 {
+  color: #dddddd;
+}
+
+body.dark-mode .card p {
+  color: #ffffff;
+}
+
+/* Charts */
+
+body.dark-mode .chartcard {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+body.dark-mode .chartcard h3 {
+  color: #ffffff;
+}
+
+/* Add Application form */
+
+body.dark-mode .form-container {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+body.dark-mode .form-container h3 {
+  color: #ffffff;
+}
+
+body.dark-mode .input-group label {
+  color: #dddddd;
+}
+
+body.dark-mode .input-group input,
+body.dark-mode .input-group select,
+body.dark-mode .input-group textarea {
+  background-color: #252525;
+  color: #ffffff;
+  border-color: #444444;
+}
+
+body.dark-mode .input-group input::placeholder,
+body.dark-mode .input-group textarea::placeholder {
+  color: #888888;
+}
+
+body.dark-mode .input-group select option {
+  background-color: #252525;
+  color: #ffffff;
+}
+
+/* Applications section */
+
+body.dark-mode .applications-container {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+body.dark-mode .application-header h3 {
+  color: #ffffff;
+}
+
+/* Application search */
+
+body.dark-mode .searchapplication {
+  background-color: #252525;
+}
+
+body.dark-mode .searchapplication input {
+  background-color: transparent;
+  color: #ffffff;
+}
+
+body.dark-mode .searchapplication input::placeholder {
+  color: #888888;
+}
+
+body.dark-mode .searchapplication i {
+  color: #aaaaaa;
+}
+
+/* Filters */
+
+body.dark-mode .applicationstatus select,
+body.dark-mode .applicationsort select {
+  background-color: #252525;
+  color: #ffffff;
+  border-color: #444444;
+}
+
+body.dark-mode .applicationstatus select option,
+body.dark-mode .applicationsort select option {
+  background-color: #252525;
+  color: #ffffff;
+}
+
+/* Table */
+
+body.dark-mode table {
+  color: #ffffff;
+}
+
+body.dark-mode th {
+  background-color: #252525;
+  color: #ffffff;
+}
+
+body.dark-mode td {
+  color: #dddddd;
+  border-color: #3a3a3a;
+}
+
+body.dark-mode tr:hover {
+  background-color: #252525;
+}
+
+/* Notification popup */
+
+body.dark-mode .notification-popup {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+body.dark-mode .notification-popup h4 {
+  color: #ffffff;
+}
+
+body.dark-mode .notification-popup p {
+  color: #aaaaaa;
+}
+
+/* Footer */
+
+body.dark-mode footer {
+  background-color: #181818;
+  color: #dddddd;
+}
+
+body.dark-mode .footerlast p {
+  color: #dddddd;
+}
